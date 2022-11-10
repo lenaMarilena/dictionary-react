@@ -1,5 +1,5 @@
 .Dictionary section {
-    background-color: #ffffff;
+    background-color: #f8dce7;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
@@ -11,7 +11,7 @@
     padding: 5px 10px;
     border: 1px solid #b4b4b4;
     border-radius: 8px;
-    color: #600f32;
+    color: #610b0b;
   }
   
   .Dictionary .hint {
@@ -22,7 +22,7 @@
   }
   
   .Dictionary .search {
-    color: #000000;
+    color: #cdb4db;
     font-size: 36px;
     font-style: italic;
     margin-bottom: 10px;
