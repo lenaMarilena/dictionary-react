@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import Dictionary from './Dictionary.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Dictionary</h1>
+        </header>
+        <main>
+          <Dictionary defaultKeyword="sunset" />
+        </main>
+        <footer>
+          <a
+            href="https://github.com/lenaMarilena/dictionary-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{' '}
+          by Olena Ovcharenko
+        </footer>
+      </div>
     </div>
   );
 }
