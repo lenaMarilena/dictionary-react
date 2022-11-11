@@ -10,7 +10,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="retro" />
+          <Dictionary defaultKeyword="pop art" />
         </main>
         <footer>
           <a
